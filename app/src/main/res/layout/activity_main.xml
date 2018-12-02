@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
     tools:context="com.example.sanjitsingh.monitordynamics.MainActivity">
 
     <Button
         android:id="@+id/body"
+        android:background="#ADD8E6"
         android:text="Baby Posture Detection"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -20,6 +20,7 @@
 
     <Button
         android:id="@+id/sleep"
+        android:background="#ADD8E6"
         android:text="Sleep Analysis"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -29,15 +30,52 @@
         tools:layout_editor_absoluteX="154dp"
         tools:layout_editor_absoluteY="231dp" />
 
-    <Button
+    <!--<Button-->
+        <!--android:id="@+id/signin"-->
+        <!--android:text="Sign in"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginBottom="99dp"-->
+        <!--tools:layout_editor_absoluteX="154dp"-->
+        <!--tools:layout_editor_absoluteY="231dp" />-->
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/avatar"
+        android:layout_width="250dp"
+        android:layout_height="250dp" />
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtBirthday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtFriends"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    <com.facebook.login.widget.LoginButton
         android:id="@+id/signin"
-        android:text="Sign in"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="99dp"
-        tools:layout_editor_absoluteX="154dp"
-        tools:layout_editor_absoluteY="231dp" />
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="179dp" />
 
+    </LinearLayout>
 </RelativeLayout>
