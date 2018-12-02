@@ -21,4 +21,10 @@ android {
         jcenter()
         google()
     }
+    sourceSets { main { jni.srcDirs = ['src/main/jni', 'src/main/jniLibs/'] } }
+    externalNativeBuild {
+        cmake {
+            path '../../../../../../Applications/Unity/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/tools/optimizer/CMakeLists.txt'
+        }
+    }
 }
