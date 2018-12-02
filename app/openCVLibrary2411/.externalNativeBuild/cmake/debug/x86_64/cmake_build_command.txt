@@ -1,0 +1,14 @@
+Executable : /Users/danjitsingh/Android/sdk/cmake/3.6.4111459/bin/cmake
+arguments : 
+-H/Applications/Unity/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/tools/optimizer
+-B/Users/danjitsingh/Downloads/MonitorDynamics/app/openCVLibrary2411/.externalNativeBuild/cmake/debug/x86_64
+-DANDROID_ABI=x86_64
+-DANDROID_PLATFORM=android-16
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/danjitsingh/Downloads/MonitorDynamics/app/openCVLibrary2411/build/intermediates/cmake/debug/obj/x86_64
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=/Users/danjitsingh/Android/sdk/ndk-bundle
+-DCMAKE_TOOLCHAIN_FILE=/Users/danjitsingh/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/Users/danjitsingh/Android/sdk/cmake/3.6.4111459/bin/ninja
+-GAndroid Gradle - Ninja
+jvmArgs : 
+

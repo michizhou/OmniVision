@@ -1,0 +1,7 @@
+# ninja log v5
+93	10800	0	CMakeFiles/optimizer.dir/optimizer-shared.cpp.o	db1d952283427b0d
+94	11032	0	CMakeFiles/optimizer.dir/parser.cpp.o	e46529498aa9d899
+95	11116	0	CMakeFiles/optimizer.dir/simple_ast.cpp.o	8ca91a9f618f5157
+39	11918	0	CMakeFiles/optimizer.dir/optimizer-main.cpp.o	5b835caa4cde8750
+94	55208	0	CMakeFiles/optimizer.dir/optimizer.cpp.o	fc5c6659534b3e2
+55209	56606	0	optimizer	61b1f472e7c651cf

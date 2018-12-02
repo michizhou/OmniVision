@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "/Applications/Unity/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/tools/optimizer/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/danjitsingh/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/danjitsingh/Downloads/MonitorDynamics/app/openCVLibrary2411/.externalNativeBuild/cmake/debug/armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "optimizer-Debug-armeabi-v7a": {
+      "artifactName": "optimizer",
+      "buildCommand": "/Users/danjitsingh/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/danjitsingh/Downloads/MonitorDynamics/app/openCVLibrary2411/.externalNativeBuild/cmake/debug/armeabi-v7a --target optimizer",
+      "abi": "armeabi-v7a",
+      "output": "/Users/danjitsingh/Downloads/MonitorDynamics/app/openCVLibrary2411/.externalNativeBuild/cmake/debug/armeabi-v7a/optimizer"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "/Applications/Unity/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/tools/optimizer/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/danjitsingh/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/danjitsingh/Downloads/MonitorDynamics/app/openCVLibrary2411/.externalNativeBuild/cmake/release/x86_64 --target clean"
+  ],
+  "libraries": {
+    "optimizer-Release-x86_64": {
+      "artifactName": "optimizer",
+      "buildCommand": "/Users/danjitsingh/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/danjitsingh/Downloads/MonitorDynamics/app/openCVLibrary2411/.externalNativeBuild/cmake/release/x86_64 --target optimizer",
+      "abi": "x86_64",
+      "output": "/Users/danjitsingh/Downloads/MonitorDynamics/app/openCVLibrary2411/.externalNativeBuild/cmake/release/x86_64/optimizer"
+    }
+  }
+}

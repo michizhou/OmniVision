@@ -1,0 +1,3 @@
+/Users/danjitsingh/Downloads/MonitorDynamics/app/openCVLibrary2411/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/edit_cache.dir
+/Users/danjitsingh/Downloads/MonitorDynamics/app/openCVLibrary2411/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/rebuild_cache.dir
+/Users/danjitsingh/Downloads/MonitorDynamics/app/openCVLibrary2411/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/optimizer.dir
